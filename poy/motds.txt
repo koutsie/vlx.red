@@ -1,8 +1,8 @@
-Mallasta, %Name
+Mallasta
 Auraa... Tummana.
 Mikä homma?
-Ettette vain haluaisi alkoholia %Name ?
-Olisikohan kokouksen paikka, %Name ?
+Ettette vain haluaisi alkoholia ?
+Olisikohan kokouksen paikka?
 Anna Sol, tai kaksi.
 Tumma ja Vahva.
 Savuisen hermeettinen
