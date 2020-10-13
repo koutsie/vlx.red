@@ -2,30 +2,22 @@
 <html>
 <style>
   /* From https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css */
-#shadowBox {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.2);
-    /* Black w/opacity/see-through */
-    border: 3px solid;
-}
-
-.rainbow {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    font-family: monospace;
-    letter-spacing: 5px;
-}
-.rainbow_text_animated {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+a:visited { text-decoration: none}
+a:link { text-decoration: none;}
+.ip {
+    background: linear-gradient(to left, #ff8000, #bf00ff , #00ff00, #ff3399, #ffff00);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 6s ease-in-out infinite;
-    background-size: 400% 100%;
+    animation: rainbow_animation 13s ease-in-out infinite;
+    background-size: 600% 100%;
 }
-
+.dlink {
+  background-image: linear-gradient(to left, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 @keyframes rainbow_animation {
     0%,100% {
         background-position: 0 0;
@@ -39,28 +31,25 @@
 <body>
 <center>
 <h1>GlassMC</h1>
-  <div id="shadowBox">
-  <h2>mine.vlx.red:40580</h2>
-  </div>
+
+  <h2 class="ip">mine.vlx.red:40580</h2>
   <p>A private Survival server for peeps who like to AFK.</p>
   <p>World seed "notchie" with amplified.</p>
   
-  <p>Apply to be whitelisted @ Discord.  <h3><a href="https://discord.gg/n58SzJk">Discord Invite</a></h3></p>
+  <p>Apply to be whitelisted in Discord. <h3 class="dlink"><a href="https://discord.gg/n58SzJk">Discord Invite</a></h3></p>
   <h1>---</h1>
   <h4><p>Supports both <bold>Java</bold> & <bold>Bedrock</bold> edition players with <bold>Geyser !</bold></p></h4>
 <hr>
-<a href="https://minecraftservers.org/server/596460" target="_blank"><img src="https://status.minecraftservers.org/ice/596460.png" alt="GlassMC Minecraft server" width="540" height="90" /></a>
-<hr>
-<widgetbot
+<a href="https://minecraftservers.org/server/596460" target="_blank"><img src="https://status.minecraftservers.org/ice/596460.png" alt="GlassMC" width="540" height="90" /></a>
+<!-- <widgetbot
     server="675049017947717687"
     channel="764579862127575110"
     width="600"
     height="300"
 ></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script> -->
   </center>
 </body>
 
 </html>
-
 
